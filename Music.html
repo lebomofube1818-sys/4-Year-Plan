@@ -12,25 +12,18 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="music.html">Music</a>
-      <a href="gallery.html">Gallery
-        <a href="tweets.html">Tweets</a>
-      </a>
+      <a href="gallery.html">Gallery</a>
+      <a href="tweets.html">Tweets </a>
     </nav>
   </header>
 
   <main>
     <section>
       <h2>Stream My Songs</h2>
-      <audio controls>
-        <source src="songs/my-song.mp3.mp3"
-        type="audio/mpeg">
-        <p>Smoko ft Nathanboy(unfinished)</p>
-      </audio>
-      <audio controls>
-        <source src="songs/my-song 2.mp3.mp3"
-        type="audio/mpeg">
-        <p>Dear Future Wife</p>
-      </audio>
+      <audio id="player" controls></audio>
+      <ul id="playlist">
+        <li data-src="songs/song1.mp3">Song 1</li>
+        <li data-src="songs/song2.mp3">Song 2</li>
       </ul>
     </section>
   </main>
